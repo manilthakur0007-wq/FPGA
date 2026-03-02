@@ -1,0 +1,62 @@
+# ── Auto-generated files ──────────────────────────────────────────────────────
+src/vhdl/coefficients.vhd
+data/input_signal.txt
+data/output_signal.txt
+data/coefficients.txt
+
+# ── GHDL build artifacts ──────────────────────────────────────────────────────
+output/
+e~*.o
+*.o
+work-*.cf
+*.cf
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Simulation waveforms (large files) ───────────────────────────────────────
+*.vcd
+*.ghw
+*.fst
+
+# ── GTKWave save files ────────────────────────────────────────────────────────
+*.gtkw
+*.sav
+
+# ── Xilinx project files (if using Vivado) ───────────────────────────────────
+*.xpr
+*.bit
+*.bin
+*.ltx
+.Xil/
+vivado*.log
+vivado*.jou
+vivado_pid*.str
+
+# ── Intel/Altera (if using Quartus) ──────────────────────────────────────────
+*.qpf
+*.qsf
+*.sof
+*.pof
+db/
+incremental_db/
+output_files/
+
+# ── Editor ───────────────────────────────────────────────────────────────────
+.vscode/settings.json
+*.swp
+*.swo
+*~
+.idea/
+*.DS_Store
+Thumbs.db
+.claude/
